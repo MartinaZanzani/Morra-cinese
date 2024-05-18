@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="style.css"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://kit.fontawesome.com/54c8c90fcc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Carta Sasso Forbici</title>
+</head>
+
+<body class="bg-gradient-to-t from-[#05080b] from-60% to-[#82cbbf] h-dvh">
+
+    <main class="bg-[#16453d] rounded-3xl shadow-[#05080b] shadow-2xl mx-[140px] my-[30px] flex-col justify-center items-center">
+
+        <h1 class="flex items-center justify-center py-[40px] title"> SASSO, CARTA, FORBICI</h1>
+
+        <!-- scelta utente-->
+        <section class="flex-col justify-center items-center">
+            <h2 class="flex items-center justify-center pb-[10px] text">Cosa scegli?</h2>
+
+            <div class="flex justify-center items-center pb-[80px] container ">
+
+                <img id="sasso-utente" src="assets/sasso.png" alt="sasso" class="hover:cursor-pointer h-[140px] img">
+            
+                <img id="carta-utente" src="assets/carta.png" alt="carta"  class="hover:cursor-pointer h-[140px] img">
+
+                <img id="forbici-utente" src="assets/forbici.png" alt="forbici"  class="hover:cursor-pointer h-[140px] img">
+
+            </div>
+
+        </section>
+
+        <!--scelta cpu-->
+
+
+        <section class="flex-col justify-center items-center">
+            <h2 class="flex items-center justify-center pb-[10px] text">Mossa del PC:</h2>
+
+            <div class=" justify-center items-center flex pb-[40px] container" >
+
+                <img id="sasso-cpu" src="assets/sasso.png" alt="sasso" class="h-[140px] img">
+
+                <img id="carta-cpu" src="assets/carta.png" alt="carta" class="h-[140px] img">
+
+                <img id="forbici-cpu" src="assets/forbici.png" alt="forbici" class="h-[140px] img">
+
+            </div>
+
+        </section>
+
+
+        <!-- risultato -->
+        <p id="risultato" class="flex justify-center items-center pb-[80px] text"></p>
+        <p id="frase" class="flex justify-center items-center pb-[80px] text"></p>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

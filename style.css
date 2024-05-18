@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size:20px;
+}
+
+@media screen and (max-width: 1140px){
+    .container{
+        flex-direction: column;
+    }
+    #risultato{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .img{
+        height: 60px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .title {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .text{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 389px) {
+    main{
+       /* width: 200px; */
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .title{
+        text-align: center;
+        
+    }
+    .text {
+        text-align: center;
+        
+    }
+}
+
+
